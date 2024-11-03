@@ -114,16 +114,16 @@ function calculateQuizScores(){
     console.log(lowestscore)
 
     if(lowestscore == brazilscore){
-        window.open("Brazil.html")
+        window.open("brazil.html")
     }
     if(lowestscore == germanyscore){
-        window.open("Germany.html")
+        window.open("germany.html")
     }
     if(lowestscore == australiascore){
-        window.open("Australia.html")
+        window.open("australia.html")
     }
     if(lowestscore == egyptscore){
-        window.open("Egypt.html")
+        window.open("egypt.html")
     }
     if(lowestscore == japanscore){
         window.open("japan.html")
