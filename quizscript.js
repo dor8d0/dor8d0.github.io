@@ -114,10 +114,12 @@ function calculateQuizScores(){
     console.log(lowestscore)
 
     if(lowestscore == brazilscore){
-        window.open("brazil.html")
+        page = "brazil.html"
+        window.open(page.toLowerCase())
     }
     if(lowestscore == germanyscore){
-        window.open("germany.html")
+        page = "germany.html"
+        window.open(page.toLowerCase())
     }
     if(lowestscore == australiascore){
         window.open("australia.html")
