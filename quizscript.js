@@ -122,12 +122,15 @@ function calculateQuizScores(){
         window.open(page.toLowerCase())
     }
     if(lowestscore == australiascore){
-        window.open("australia.html")
+        page = "australia.html"
+        window.open(page.toLowerCase())
     }
     if(lowestscore == egyptscore){
-        window.open("egypt.html")
+        page = "egypt.html"
+        window.open(page.toLowerCase())
     }
     if(lowestscore == japanscore){
-        window.open("japan.html")
+        page = "japan.html"
+        window.open(page.toLowerCase())
     }
 }
